@@ -1,5 +1,4 @@
-
-
+import streamlit as st
 # إعداد الصفحة
 st.set_page_config(page_title="ملخّص النصوص بالذكاء الاصطناعي", layout="centered")
 
@@ -27,4 +26,5 @@ if st.button("🔍 تلخيص"):
 
 # خط فاصل
 st.markdown("---")
+
 st.caption("🚀 تم الإنشاء باستخدام Python + Streamlit | مجانًا")
